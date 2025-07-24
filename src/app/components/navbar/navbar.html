@@ -1,0 +1,76 @@
+<nav class="w-full bg-[#076C80] py-3 flex justify-center sm:text-sm
+    md:text-base">
+    <div class="w-full flex items-center justify-between px-4 h-7">
+
+        <!-- Logo and Menu -->
+        <div class="flex items-center gap-5 sm:gap-6">
+            <div class="hidden md:flex items-center gap-1">
+                <img src="/Dronebox_Logo.png" alt="Logo" class="h-8 w-auto" />
+            </div>
+
+            <!-- | -->
+            <div class="hidden md:flex w-px min-w-px h-6 bg-white"></div>
+
+            <div class="flex items-center gap-3 sm:gap-5 text-white text-xs">
+                <a routerLink="/projects" class="flex items-center gap-1
+                    cursor-pointer hover:text-gray-300 transition">
+                    <img src="/icon/icon-bag.svg" alt="bag icon" class="w-4 h-4
+                        invert" />
+                    Projects
+                </a>
+
+                <a routerLink="/gcps" class="flex items-center gap-1
+                    cursor-pointer hover:text-gray-300 transition">
+                    <img src="/icon/icon-bag.svg" alt="bag icon" class="w-4 h-4
+                        invert" />
+                    GCPs
+                </a>
+
+                <a routerLink="/alignment" class="flex items-center gap-1
+                    cursor-pointer hover:text-gray-300 transition">
+                    <img src="/icon/icon-bag.svg" alt="bag icon" class="w-4 h-4
+                        invert" />
+                    Alignment
+                </a>
+
+                <!-- CloudHold Button -->
+                <button routerLink="/CloudHold"
+                    class="flex items-center gap-1 bg-white text-[#076C80]
+                    border border-[#076C80] px-4 py-1.5 rounded-full font-medium
+                    hover:bg-[#78cadc] transition cursor-pointer">
+                    <img src="/icon/cloud.svg" alt="cloud icon" class="w-4 h-4"
+                        />
+                    CloudHold
+                </button>
+            </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="hidden md:flex items-center gap-4 sm:gap-6 text-white">
+            <img routerLink="/bell" src="/icon/fi-sr-bell.svg" alt="bell icon"
+                class="w-4 h-4 cursor-pointer" />
+            <img routerLink="/mail" src="/icon/mail.svg" alt="mail icon"
+                class="w-4 h-4 cursor-pointer" />
+
+            <div class="flex items-center gap-4 sm:gap-5">
+                <!-- | -->
+                <div class="hidden md:flex w-px min-w-px h-6 bg-white"></div>
+                <img routerLink="/" src="/photo.png" alt="User" class="w-6 h-6
+                    rounded-full cursor-pointer" />
+
+                <div class="flex flex-col leading-tight text-[10px]">
+                    <span class="text-right">Hi,</span>
+                    <span class="font-bold">Mapedia</span>
+                </div>
+
+                <div class="flex gap-2">
+                    <img src="/Img.png" alt="Language" class="w-5
+                        cursor-pointer" />
+                    <img routerLink="/" src="/fi-sr-caret-down.png"
+                        alt="Dropdown" class="w-4 h-4 cursor-pointer" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
