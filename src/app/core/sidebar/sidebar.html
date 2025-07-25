@@ -1,6 +1,6 @@
 <aside class="pt-[10px] pr-[16px] pb-[22px] pl-[13px] 
-  w-70 h-auto min-h-full bg-white rounded-[16px] border border-gray-200 
-  flex flex-col justify-between font-bold ml-2 mt-2 mb-2 ">
+  w-[280px] h-auto min-h-full bg-white rounded-[16px] border border-gray-200 
+  flex-col justify-between font-bold ml-2 mt-2 mb-2 shadow-sm hidden md:flex">
 
     <!-- Logo and Nav menu-->
     <div class="flex flex-col text-[#0F5262] gap-1 text-2xl" >
@@ -16,23 +16,39 @@
                       <img src="/icon/HouseSimple.svg" class="w-4 h-4" alt="Home" />
                       <span>Home</span>
                     </div>
+                    <div *ngIf="homeCount > 0"
+                         class="text-[#0F5262] bg-[#EEF7FF] text-[10px] font-semibold border border-[#076C80] px-2 py-[2px] rounded-full">
+                      {{ homeCount }}
+                    </div>
                 </div>
                 <div class="flex items-center justify-between hover:bg-[#F8FAFC] px-2 py-4 rounded-full cursor-pointer h-7">
                     <div class="flex items-center gap-1">
-                      <img src="/icon/ListBullets.svg" class="w-4 h-4" alt="Home" />
+                      <img src="/icon/ListBullets.svg" class="w-4 h-4" alt="Tasks" />
                       <span>Tasks</span>
                     </div>
-                </div>
-                <div class="flex items-center justify-between hover:bg-[#F8FAFC] px-2 py-4 rounded-full cursor-pointer h-7">
-                    <div class="flex items-center gap-1">
-                      <img src="/icon/Cube.svg" class="w-4 h-4" alt="Home" />
-                      <span>APIs</span>
+                    <div *ngIf="taskCount > 0"
+                         class="text-[#0F5262] bg-[#EEF7FF] text-[10px] font-semibold border border-[#076C80] px-2 py-[2px] rounded-full">
+                      {{ taskCount }}
                     </div>
                 </div>
                 <div class="flex items-center justify-between hover:bg-[#F8FAFC] px-2 py-4 rounded-full cursor-pointer h-7">
                     <div class="flex items-center gap-1">
-                      <img src="/icon/ChatTeardropDots.svg" class="w-4 h-4" alt="Home" />
-                      <span>Help & Support</span>
+                      <img src="/icon/Cube.svg" class="w-4 h-4" alt="Tasks" />
+                      <span>APIs</span>
+                    </div>
+                    <div *ngIf="APIs > 0"
+                         class="text-[#0F5262] bg-[#EEF7FF] text-[10px] font-semibold border border-[#076C80] px-2 py-[2px] rounded-full">
+                      {{ APIs }}
+                    </div>
+                </div>
+                <div class="flex items-center justify-between hover:bg-[#F8FAFC] px-2 py-4 rounded-full cursor-pointer h-7">
+                    <div class="flex items-center gap-1">
+                      <img src="/icon/ChatTeardropDots.svg" class="w-4 h-4" alt="Tasks" />
+                      <span>APIs</span>
+                    </div>
+                    <div *ngIf="Help > 0"
+                         class="text-[#0F5262] bg-[#EEF7FF] text-[10px] font-semibold border border-[#076C80] px-2 py-[2px] rounded-full">
+                      {{ Help }}
                     </div>
                 </div>
             </div>
@@ -40,8 +56,11 @@
 
     </div>
 
+
+
     <!-- User -->
     <div class="flex flex-col gap-5">
+        <app-promot></app-promot>
         <div class="w-full min-w-px h-px bg-[#E2E8F0]"></div>
 
         <div class="flex justify-between">

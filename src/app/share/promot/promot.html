@@ -1,0 +1,16 @@
+<div *ngIf="showPopup" class="bg-[#F8FAFC] p-4 rounded-xl relative mt-4 text-[11px] ">
+    <button class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 cursor-pointer" (click)="dismissPopup()">✕</button>
+    <div class="flex mb-3">
+        <img src="/icon/Icon Container.svg" class="w-7 h-7" alt="Home" />
+    </div>
+   
+    <div class="flex gap-2 items-start">
+        <div class="text-[#475569] font-semibold">
+            <p>Enjoy unlimited access to our app with only a small price monthly.</p>
+            <div class="mt-2 font-bold text-[12px]">
+                <button class="text-gray-600 hover mr-3 cursor-pointer" (click)="dismissPopup()">Dismiss</button>
+                <a routerLink="/upgrade" class="text-[#4F46E5] hover cursor-pointer">Go Pro</a>
+            </div>
+        </div>
+    </div>
+  </div>

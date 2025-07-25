@@ -1,0 +1,28 @@
+<div class="flex justify-center items-center space-x-2 mt-5">
+    <button 
+      (click)="goToPage(currentPage - 1)" 
+      class="w-7 h-7 rounded bg-gray-200 hover:bg-[#D5E2E1] disabled:opacity-50 flex items-center justify-center"
+      [disabled]="currentPage === 1">
+      <img src="/icon/Icon.svg" class="w-4 h-4" alt="Icon" />
+    </button>
+  
+    <ng-container *ngFor="let page of [].constructor(totalPages); let i = index">
+      <button 
+        (click)="goToPage(i + 1)" 
+        [ngClass]="{
+          'bg-[#076C80] text-white': currentPage === i + 1,
+          'bg-[#D5E2E1]': currentPage !== i + 1
+        }"
+        class="w-7 h-7 rounded hover:bg-[#75bcca] text-[12px] font-bold">
+        {{ i + 1 }}
+      </button>
+    </ng-container>
+  
+    <button 
+      (click)="goToPage(currentPage + 1)" 
+      class="w-7 h-7 rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50 flex items-center justify-center"
+      [disabled]="currentPage === totalPages">
+      <img src="/icon/Icon.svg" class="w-4 h-4 rotate-180" alt="Icon" />
+    </button>
+  </div>
+  

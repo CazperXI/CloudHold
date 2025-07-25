@@ -1,0 +1,17 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8_5656)">
+<path d="M4 6.5V12.5C4 12.5 4 15.5 11 15.5C11.5925 15.5 12.1349 15.4785 12.6313 15.4392" stroke="#FFB54D" style="stroke:#FFB54D;stroke:color(display-p3 1.0000 0.7100 0.3024);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 6.5V12.5" stroke="#FFB54D" style="stroke:#FFB54D;stroke:color(display-p3 1.0000 0.7100 0.3024);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11 3.5C18 3.5 18 6.5 18 6.5C18 6.5 18 9.5 11 9.5C4 9.5 4 6.5 4 6.5C4 6.5 4 3.5 11 3.5Z" stroke="#FFB54D" style="stroke:#FFB54D;stroke:color(display-p3 1.0000 0.7100 0.3024);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11 21.5C4 21.5 4 18.5 4 18.5V12.5" stroke="#FFB54D" style="stroke:#FFB54D;stroke:color(display-p3 1.0000 0.7100 0.3024);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.6664 18.1667C22.0476 16.597 20.6345 15.5 18.9901 15.5C17.2318 15.5 15.7377 16.7545 15.1968 18.5" stroke="#FFB54D" style="stroke:#FFB54D;stroke:color(display-p3 1.0000 0.7100 0.3024);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.9951 18.1667H22.6664C22.8507 18.1667 23.0001 18.0173 23.0001 17.833V15.9445" stroke="#FFB54D" style="stroke:#FFB54D;stroke:color(display-p3 1.0000 0.7100 0.3024);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.3336 20.8333C15.9524 22.403 17.3655 23.5 19.0099 23.5C20.7682 23.5 22.2623 22.2455 22.8032 20.5" stroke="#FFB54D" style="stroke:#FFB54D;stroke:color(display-p3 1.0000 0.7100 0.3024);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.0049 20.8333H15.3336C15.1493 20.8333 14.9999 20.9827 14.9999 21.167V23.0555" stroke="#FFB54D" style="stroke:#FFB54D;stroke:color(display-p3 1.0000 0.7100 0.3024);stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_8_5656">
+<rect width="24" height="24" fill="white" style="fill:white;fill-opacity:1;" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>

@@ -47,10 +47,20 @@
 
         <!-- Right Side -->
         <div class="hidden md:flex items-center gap-4 sm:gap-6 text-white">
-            <img routerLink="/bell" src="/icon/fi-sr-bell.svg" alt="bell icon"
-                class="w-4 h-4 cursor-pointer" />
-            <img routerLink="/mail" src="/icon/mail.svg" alt="mail icon"
-                class="w-4 h-4 cursor-pointer" />
+            <div class="relative">
+                <img routerLink="/bell" src="/icon/fi-sr-bell.svg" alt="bell icon" class="w-4 h-4 cursor-pointer" />
+                <div *ngIf="bellCount > 0"
+                     class="absolute -top-2 -right-2 bg-[#FF4800] text-white text-[10px] rounded-sm w-4 h-4 flex items-center justify-center">
+                  {{ bellCount }}
+                </div>
+              </div>
+              <div class="relative">
+                <img routerLink="/mail" src="/icon/mail.svg" alt="mail icon" class="w-4 h-4 cursor-pointer" />
+                <div *ngIf="mailCount > 0"
+                     class="absolute -top-2 -right-2 bg-[#FF4800] text-white text-[10px] rounded-sm w-4 h-4 flex items-center justify-center">
+                  {{ mailCount }}
+                </div>
+              </div>
 
             <div class="flex items-center gap-4 sm:gap-5">
                 <!-- | -->
